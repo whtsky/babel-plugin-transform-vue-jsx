@@ -1,9 +1,13 @@
 {
-  "name": "babel-plugin-transform-vue-jsx",
+  "name": "@whtsky/babel-plugin-transform-vue-jsx",
   "version": "3.5.0",
   "description": "Babel plugin for Vue 2.0 JSX",
   "main": "index.js",
   "unpkg": "dist/babel-plugin-transform-vue-jsx.min.js",
+  "publishConfig":{
+    "registry":"https://registry.npmjs.org/",
+    "access": "public"
+  },
   "files": [
     "index.js",
     "lib",
@@ -18,19 +22,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/babel-plugin-transform-vue-jsx.git"
+    "url": "git+https://github.com/whtsky/babel-plugin-transform-vue-jsx.git"
   },
   "keywords": [
     "vue",
     "babel",
     "jsx"
   ],
-  "author": "Evan You",
+  "author": "Wu Haotian",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vuejs/babel-plugin-transform-vue-jsx/issues"
+    "url": "https://github.com/whtsky/babel-plugin-transform-vue-jsx/issues"
   },
-  "homepage": "https://github.com/vuejs/babel-plugin-transform-vue-jsx#readme",
+  "homepage": "https://github.com/whtsky/babel-plugin-transform-vue-jsx#readme",
   "dependencies": {
     "esutils": "^2.0.2"
   },
